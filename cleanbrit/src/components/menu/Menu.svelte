@@ -1,4 +1,4 @@
-<nav class="hidden text-gray-500 uppercase text-bold sm:block">
-    <a href="/about" class="hover:text-gray-700 hover:no-underline">About</a>
-      <a href="/contact" class="hover:text-gray-700 hover:no-underline">Contact</a>
+<nav class="hidden text-blue-500 uppercase text-bold sm:block p-1">
+    <a href="/about" class="hover:text-blue-700 hover:no-underline p-1">About</a>
+    <a href="/contact" class="hover:text-blue-700 hover:no-underline p-1">Contact</a>
   </nav>

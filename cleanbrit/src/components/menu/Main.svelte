@@ -1,4 +1,4 @@
-<main class="p-4 text-gray-300">
+<main class="p-4 text-blue-300">
 	<svg height="100%" width="100%">
 		<line x1=0 y1=4 x2=400 y2=4/>
 		<line x1=0 y1=34 x2=200 y2=34/>
