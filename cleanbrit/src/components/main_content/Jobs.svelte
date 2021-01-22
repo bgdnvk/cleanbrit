@@ -1,17 +1,20 @@
+<script>
+  let src = './images/building.png'
+  import Option from './Option.svelte'
+  import New from './New.svelte'
+</script>
+
 <div class="flex border-2	">
     <div class="flex-auto">
       <!-- Will grow and shrink as needed taking initial size into account -->
-      <p>something here 21</p>
+     <Option jobName='job name1' jobC='text content'></Option>
 
     </div>
     <div class="flex-auto">
       <!-- Will grow and shrink as needed taking initial size into account -->
-      <p>something here 22</p>
+      <Option jobName='job name1' jobC='text content'></Option>
+
 
     </div>
-    <div class="flex-auto">
-      <!-- Will grow and shrink as needed taking initial size into account -->
-      <p>something here23</p>
-
-    </div>
+   
   </div>

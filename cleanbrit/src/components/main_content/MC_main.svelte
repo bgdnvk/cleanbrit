@@ -1,22 +1,20 @@
 <script>
-    import First from './First.svelte'
-    import Second from './Second.svelte'
+    import Intro from './Intro.svelte'
+    import Jobs from './Jobs.svelte'
     import Third from './Third.svelte'
+    import Form from './FormContact.svelte'
 
 </script>
-<div class="grid grid-rows-3 gap-4 border-4 border-indigo-600">
-    <div class='
-    border-4 border-indigo-600 
-    flex
-    justify-self-center
+
+    <div class='flex
     '>
-        <First></First>
+        <Intro></Intro>
         
     </div>
     <div>
-        <Second></Second>
+        <Jobs></Jobs>
     </div>
     <div>
-        <Third></Third>
+        <Jobs></Jobs>
     </div>
-</div>
+    <Form></Form>

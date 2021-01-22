@@ -1,9 +1,9 @@
 <!-- https://svelte.dev/tutorial/select-bindings -->
 <script>
 	let questions = [
-		{ id: 1, text: `Where did you go to school?` },
-		{ id: 2, text: `What is your mother's name?` },
-		{ id: 3, text: `What is another personal fact that an attacker could easily find with Google?` }
+		{ id: 1, text: `Service 1` },
+		{ id: 2, text: `Service 2` },
+		{ id: 3, text: `Just information` }
 	];
 
 	let selected;
@@ -19,7 +19,7 @@
 	input { display: block; width: 500px; max-width: 100%; }
 </style>
 
-<h2>Insecurity questions</h2>
+<h2>What type of service do you want?</h2>
 
 <form on:submit|preventDefault={handleSubmit}>
 	<select bind:value={selected} on:blur="{() => answer = ''}">
@@ -30,11 +30,23 @@
 		{/each}
 	</select>
 
+	
+
 	<input bind:value={answer}>
+
+	<!-- <textarea>Contact us here!</textarea> -->
+
 
 	<button disabled={!answer} type=submit>
 		Submit
 	</button>
 </form>
 
-<p>selected question {selected ? selected.id : '[waiting...]'}</p>
+
+<p>selected service {selected ? selected.id : '[waiting...]'}</p>
+
+<form action="/action_page.php">
+    <textarea name="message" rows="10" cols="30">The cat was playing in the garden.</textarea>
+    <br><br>
+    <input type="submit">
+</form>
