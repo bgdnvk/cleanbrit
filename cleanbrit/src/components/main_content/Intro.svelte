@@ -2,7 +2,7 @@
 
 let src = './images/building.png'
 </script>
-<div class="flex border-2 ">
+<div class="flex border-2 bg-gradient-to-r from-blue-100 to-blue-200">
     
     <div class="flex-auto border-2 content-center">
     </div>
